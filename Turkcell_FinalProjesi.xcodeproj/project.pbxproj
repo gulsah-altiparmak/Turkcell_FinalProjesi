@@ -3,27 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8063202125CC2A980070D63D /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8063202025CC2A980070D63D /* Roboto-Medium.ttf */; };
+		8077B68B25C6D335007271F7 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8077B68A25C6D335007271F7 /* Login.swift */; };
+		8077B68F25C6D35A007271F7 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8077B68E25C6D35A007271F7 /* Register.swift */; };
+		8077B69225C6D485007271F7 /* UserRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8077B69125C6D485007271F7 /* UserRegister.swift */; };
+		8077B69525C6D4C4007271F7 /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8077B69425C6D4C4007271F7 /* UserLogin.swift */; };
+		8077B69825C6D82A007271F7 /* SCLAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8077B69725C6D82A007271F7 /* SCLAlert.swift */; };
+		8077B6AA25C7223A007271F7 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8077B6A925C7223A007271F7 /* Products.swift */; };
+		8077B6AD25C72591007271F7 /* ProductsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8077B6AC25C72591007271F7 /* ProductsTable.swift */; };
+		8077B6B025C727DB007271F7 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8077B6AF25C727DB007271F7 /* CustomCell.swift */; };
+		8077B6B725C734CD007271F7 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 8077B6B625C734CD007271F7 /* loading.json */; };
+		8077B6BB25C74802007271F7 /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8077B6BA25C74802007271F7 /* ProductDetail.swift */; };
+		8077B6BE25C755F5007271F7 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8077B6BD25C755F5007271F7 /* Order.swift */; };
+		8093625825CED64400B4957E /* UIOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8093625725CED64300B4957E /* UIOperations.swift */; };
+		80B3F33825C88ED500703B52 /* OrderListTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B3F33725C88ED500703B52 /* OrderListTable.swift */; };
+		80CE0DA325C87E9500D6B3D7 /* OrderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE0DA225C87E9500D6B3D7 /* OrderList.swift */; };
 		80D5C52425C5E41000AA5669 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D5C52325C5E41000AA5669 /* AppDelegate.swift */; };
 		80D5C52625C5E41000AA5669 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D5C52525C5E41000AA5669 /* SceneDelegate.swift */; };
 		80D5C52825C5E41000AA5669 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D5C52725C5E41000AA5669 /* ViewController.swift */; };
 		80D5C52B25C5E41000AA5669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D5C52925C5E41000AA5669 /* Main.storyboard */; };
 		80D5C52D25C5E41300AA5669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D5C52C25C5E41300AA5669 /* Assets.xcassets */; };
-		80D5C53025C5E41300AA5669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D5C52E25C5E41300AA5669 /* LaunchScreen.storyboard */; };
+		80D5C53B25C5E46200AA5669 /* shopping-cart.json in Resources */ = {isa = PBXBuildFile; fileRef = 80D5C53A25C5E46200AA5669 /* shopping-cart.json */; };
+		EB5486C4B24F02C41F0FDBA7 /* Pods_Turkcell_FinalProjesi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B711F06232BA3E48215C97F3 /* Pods_Turkcell_FinalProjesi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C23638486771F57FD0F6B98 /* Pods-Turkcell_FinalProjesi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Turkcell_FinalProjesi.release.xcconfig"; path = "Target Support Files/Pods-Turkcell_FinalProjesi/Pods-Turkcell_FinalProjesi.release.xcconfig"; sourceTree = "<group>"; };
+		8063202025CC2A980070D63D /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		8077B68A25C6D335007271F7 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		8077B68E25C6D35A007271F7 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		8077B69125C6D485007271F7 /* UserRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegister.swift; sourceTree = "<group>"; };
+		8077B69425C6D4C4007271F7 /* UserLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogin.swift; sourceTree = "<group>"; };
+		8077B69725C6D82A007271F7 /* SCLAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCLAlert.swift; sourceTree = "<group>"; };
+		8077B6A925C7223A007271F7 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		8077B6AC25C72591007271F7 /* ProductsTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTable.swift; sourceTree = "<group>"; };
+		8077B6AF25C727DB007271F7 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		8077B6B625C734CD007271F7 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		8077B6BA25C74802007271F7 /* ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
+		8077B6BD25C755F5007271F7 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		8093625725CED64300B4957E /* UIOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIOperations.swift; sourceTree = "<group>"; };
+		80B3F33725C88ED500703B52 /* OrderListTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListTable.swift; sourceTree = "<group>"; };
+		80CE0DA225C87E9500D6B3D7 /* OrderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderList.swift; sourceTree = "<group>"; };
 		80D5C52025C5E41000AA5669 /* Turkcell_FinalProjesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turkcell_FinalProjesi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D5C52325C5E41000AA5669 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80D5C52525C5E41000AA5669 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		80D5C52725C5E41000AA5669 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80D5C52A25C5E41000AA5669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80D5C52C25C5E41300AA5669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		80D5C52F25C5E41300AA5669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80D5C53125C5E41300AA5669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D5C53A25C5E46200AA5669 /* shopping-cart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "shopping-cart.json"; sourceTree = "<group>"; };
+		B711F06232BA3E48215C97F3 /* Pods_Turkcell_FinalProjesi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Turkcell_FinalProjesi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC44B41F2856385625A8CFED /* Pods-Turkcell_FinalProjesi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Turkcell_FinalProjesi.debug.xcconfig"; path = "Target Support Files/Pods-Turkcell_FinalProjesi/Pods-Turkcell_FinalProjesi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB5486C4B24F02C41F0FDBA7 /* Pods_Turkcell_FinalProjesi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		518F62BABCAEB0965B0B935B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC44B41F2856385625A8CFED /* Pods-Turkcell_FinalProjesi.debug.xcconfig */,
+				5C23638486771F57FD0F6B98 /* Pods-Turkcell_FinalProjesi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8063201F25CC2A750070D63D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8063202025CC2A980070D63D /* Roboto-Medium.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		8077B68925C6D307007271F7 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				8077B69125C6D485007271F7 /* UserRegister.swift */,
+				8077B69425C6D4C4007271F7 /* UserLogin.swift */,
+				8077B6A925C7223A007271F7 /* Products.swift */,
+				8077B6BD25C755F5007271F7 /* Order.swift */,
+				80CE0DA225C87E9500D6B3D7 /* OrderList.swift */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
 		80D5C51725C5E41000AA5669 = {
 			isa = PBXGroup;
 			children = (
 				80D5C52225C5E41000AA5669 /* Turkcell_FinalProjesi */,
 				80D5C52125C5E41000AA5669 /* Products */,
+				518F62BABCAEB0965B0B935B /* Pods */,
+				B2D0BC1BDDCA6269AAE33FAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +122,42 @@
 		80D5C52225C5E41000AA5669 /* Turkcell_FinalProjesi */ = {
 			isa = PBXGroup;
 			children = (
+				8063201F25CC2A750070D63D /* Font */,
+				8077B68925C6D307007271F7 /* Struct */,
+				80D5C53925C5E43A00AA5669 /* Animation */,
 				80D5C52325C5E41000AA5669 /* AppDelegate.swift */,
 				80D5C52525C5E41000AA5669 /* SceneDelegate.swift */,
 				80D5C52725C5E41000AA5669 /* ViewController.swift */,
 				80D5C52925C5E41000AA5669 /* Main.storyboard */,
 				80D5C52C25C5E41300AA5669 /* Assets.xcassets */,
-				80D5C52E25C5E41300AA5669 /* LaunchScreen.storyboard */,
 				80D5C53125C5E41300AA5669 /* Info.plist */,
+				8077B68A25C6D335007271F7 /* Login.swift */,
+				8077B68E25C6D35A007271F7 /* Register.swift */,
+				8077B69725C6D82A007271F7 /* SCLAlert.swift */,
+				8077B6AC25C72591007271F7 /* ProductsTable.swift */,
+				8077B6AF25C727DB007271F7 /* CustomCell.swift */,
+				8077B6BA25C74802007271F7 /* ProductDetail.swift */,
+				80B3F33725C88ED500703B52 /* OrderListTable.swift */,
+				8093625725CED64300B4957E /* UIOperations.swift */,
 			);
 			path = Turkcell_FinalProjesi;
+			sourceTree = "<group>";
+		};
+		80D5C53925C5E43A00AA5669 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				8077B6B625C734CD007271F7 /* loading.json */,
+				80D5C53A25C5E46200AA5669 /* shopping-cart.json */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		B2D0BC1BDDCA6269AAE33FAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B711F06232BA3E48215C97F3 /* Pods_Turkcell_FinalProjesi.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80D5C53425C5E41300AA5669 /* Build configuration list for PBXNativeTarget "Turkcell_FinalProjesi" */;
 			buildPhases = (
+				16B42D6E15BEDB66BE80DBEE /* [CP] Check Pods Manifest.lock */,
 				80D5C51C25C5E41000AA5669 /* Sources */,
 				80D5C51D25C5E41000AA5669 /* Frameworks */,
 				80D5C51E25C5E41000AA5669 /* Resources */,
+				D851676FC42C0F50D6BB7B4D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,22 +219,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D5C53025C5E41300AA5669 /* LaunchScreen.storyboard in Resources */,
+				8063202125CC2A980070D63D /* Roboto-Medium.ttf in Resources */,
 				80D5C52D25C5E41300AA5669 /* Assets.xcassets in Resources */,
 				80D5C52B25C5E41000AA5669 /* Main.storyboard in Resources */,
+				8077B6B725C734CD007271F7 /* loading.json in Resources */,
+				80D5C53B25C5E46200AA5669 /* shopping-cart.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16B42D6E15BEDB66BE80DBEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Turkcell_FinalProjesi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D851676FC42C0F50D6BB7B4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Turkcell_FinalProjesi/Pods-Turkcell_FinalProjesi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Turkcell_FinalProjesi/Pods-Turkcell_FinalProjesi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Turkcell_FinalProjesi/Pods-Turkcell_FinalProjesi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		80D5C51C25C5E41000AA5669 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8077B6AA25C7223A007271F7 /* Products.swift in Sources */,
 				80D5C52825C5E41000AA5669 /* ViewController.swift in Sources */,
+				8077B6BB25C74802007271F7 /* ProductDetail.swift in Sources */,
+				8077B6B025C727DB007271F7 /* CustomCell.swift in Sources */,
 				80D5C52425C5E41000AA5669 /* AppDelegate.swift in Sources */,
 				80D5C52625C5E41000AA5669 /* SceneDelegate.swift in Sources */,
+				8077B69825C6D82A007271F7 /* SCLAlert.swift in Sources */,
+				8077B69225C6D485007271F7 /* UserRegister.swift in Sources */,
+				80CE0DA325C87E9500D6B3D7 /* OrderList.swift in Sources */,
+				8077B68B25C6D335007271F7 /* Login.swift in Sources */,
+				8077B69525C6D4C4007271F7 /* UserLogin.swift in Sources */,
+				8077B6BE25C755F5007271F7 /* Order.swift in Sources */,
+				80B3F33825C88ED500703B52 /* OrderListTable.swift in Sources */,
+				8077B6AD25C72591007271F7 /* ProductsTable.swift in Sources */,
+				8077B68F25C6D35A007271F7 /* Register.swift in Sources */,
+				8093625825CED64400B4957E /* UIOperations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,14 +304,6 @@
 				80D5C52A25C5E41000AA5669 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		80D5C52E25C5E41300AA5669 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80D5C52F25C5E41300AA5669 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -283,10 +427,12 @@
 		};
 		80D5C53525C5E41300AA5669 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC44B41F2856385625A8CFED /* Pods-Turkcell_FinalProjesi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H6FCJ75GY;
 				INFOPLIST_FILE = Turkcell_FinalProjesi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,10 +447,12 @@
 		};
 		80D5C53625C5E41300AA5669 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C23638486771F57FD0F6B98 /* Pods-Turkcell_FinalProjesi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H6FCJ75GY;
 				INFOPLIST_FILE = Turkcell_FinalProjesi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

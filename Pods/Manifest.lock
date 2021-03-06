@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.4.1)
+  - lottie-ios (3.1.9)
+  - Material (3.1.8):
+    - Material/Core (= 3.1.8)
+  - Material/Core (3.1.8):
+    - Motion (~> 3.1.1)
+  - Motion (3.1.3):
+    - Motion/Core (= 3.1.3)
+  - Motion/Core (3.1.3)
+  - PMSuperButton (3.0.2)
+  - SCLAlertView (0.8)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - lottie-ios
+  - Material
+  - PMSuperButton
+  - SCLAlertView
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - lottie-ios
+    - Material
+    - Motion
+    - PMSuperButton
+    - SCLAlertView
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
+  Material: a2a3f400a3b549d53ef89e56c58c4535b29db387
+  Motion: cf1e060e489f6661126374d5c60dbd2ed991605c
+  PMSuperButton: 72105fef415890c8792a9e5a784f75c461066f8b
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 0a9ea5f95281f7d0907c64ff83bac90fb24e85d3
+
+COCOAPODS: 1.10.1
